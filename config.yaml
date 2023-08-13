@@ -1,0 +1,37 @@
+# the config is read once before program start, thus you have to restart the program for config changes to take effect
+
+
+# theme of the input window, find all themes here:
+# https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fotneabe3zbz31.png%3Fwidth%3D2305%26format%3Dpng%26auto%3Dwebp%26s%3D7fdcf387d843f822892c724e0c6e73db038aec3d
+theme: Topanga
+
+# font of all texts inside the input window, but the text inside the text input field
+font: Helvetica
+# font size of all texts inside the input window, but the text inside the text input field
+font-size: 11
+
+## font of the text inside the text input field
+textFont: Helvetica
+# font size of the text inside the text input field
+textFont-size: 11
+
+# destination of your ideas file
+ideasDestination:
+# destination of your obsidian vault
+vaultFolder:
+
+# Text that is prepended to text before appending it to your ideas file.
+# "\n" creates a new line, as the text will otherwise append directly to the last written text
+# "* " creates a bullet point in Markdown format
+ideasPrependAppendText: "\n* "
+# Text that is prepended to text before prepending it to your ideas file.
+ideasPrependPrependText: "* "
+
+# automatically close window after text has been written to a file
+autoClose: True
+# automatically clear text input after text has been written to a file
+# irrelevant, if autoClose is enabled
+autoClear: True
+# automatically clear filename input after text has been written to a file
+# irrelevant, if autoClose is enabled
+autoClearFile: True
